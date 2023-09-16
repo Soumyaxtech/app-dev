@@ -14,19 +14,15 @@ void main(){
   // print("*     *");
   // print(" *   * ");
   // print("   *   ");
-//   print("circle");
-//   print("  * * *  ");
-//   print("*       *") ;
-// print("*       *");
-//   print("*       *");
-//   print("*       *");
-//   print("*       *") ;
-//   print("  * * *  ");
-print("* *    * *");
-print("*   *    *");
-print(" *      * ");
-print("  *    *  ");
-print("   *  *   ");
-print("    *   ");
- 
+ print("circle");
+print("    * *       * *    ");
+print("  *     *   *     *  ");
+print("*         *         *");
+print("*                   *");
+print("*                   *");
+print("  *               *  ");
+print("    *           *    ");
+print("      *       *      ");
+print("        *   *        ");
+print("          *          ");
 }
