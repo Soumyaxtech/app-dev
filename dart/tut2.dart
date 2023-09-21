@@ -9,9 +9,11 @@
 //variable in dart
 void main(){
   //how to declear variable
-  int num;
-  num=34;
-  num++;
-  num=-19;
-  print(num);
+  int num1,num2,num3,num4;
+  num1=90;
+  num2=87;
+  num3=27;
+  num4=3;
+ int  result=(num1+num2)-(num3*num4);
+ print(result);
 }
