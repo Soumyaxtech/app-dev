@@ -10,7 +10,7 @@ void main(){
   print(name.toLowerCase());//convert a string into lower case
   stdout.write(name.toUpperCase());//convert a string into upper case
   print(name.split(''));//for splitting a string 
-  print(name.replaceAll(name, 'abcdef'));// to replace a string
+  print(name.replaceAll(name,  age));// to replace a string
   print(name.contains('O'));/*for checking if the string contain that thing.if it contain
   then it returns true if it not then return false*/
 }
