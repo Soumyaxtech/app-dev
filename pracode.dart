@@ -1,4 +1,4 @@
-//add ,subtract,multiple of two numbers
+// //add ,subtract,multiple of two numbers
 // import 'dart:io';
 // void main(){
 //   var input=stdin;
@@ -17,7 +17,7 @@
 // }
 
 
-//swapping of two numbers
+// //swapping of two numbers
 
 
 // import 'dart:io';
@@ -40,7 +40,7 @@
 // }
 
 
-//feet to meter conversion
+// feet to meter conversion
 
 // import 'dart:io';
 
@@ -53,14 +53,14 @@
 
 // }
 
-//celcius to ferenhite
+// celcius to ferenhite
 
-import 'dart:io';
+// import 'dart:io';
 
-void main(){
-  var input=stdin;
-  stdout.write("enter temp in celcius ");
-  int ? cel=int.parse(input.readLineSync()!);
-  double fer=(((9/5)*cel)+32);
-  stdout.write("the temp in fer is $fer");
-}
+// void main(){
+//   var input=stdin;
+//   stdout.write("enter temp in celcius ");
+//   int ? cel=int.parse(input.readLineSync()!);
+//   double fer=(((9/5)*cel)+32);
+//   stdout.write("the temp in fer is $fer");
+// }
