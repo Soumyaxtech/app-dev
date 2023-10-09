@@ -1,15 +1,17 @@
 import 'dart:io';
 void main() {
-  var input = stdin;
-
-  // Prompt for name input
+  //  Prompt for name input
   print('Enter your name:');
-  String? name = input.readLineSync();
+  String? name = stdin.readLineSync();
 
   // Prompt for age input
   print('Enter your age:');
-  int ? age = int.parse(input.readLineSync()!);
+  int ? age = int.parse(stdin.readLineSync()!);
 
   // Display a greeting along with the age
   print('Hello, $name! You are $age years old.');
-}
+
+
+  var data =stdin.readLineSync();
+   print("the name is $data");
+  }
