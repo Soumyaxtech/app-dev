@@ -14,7 +14,7 @@ void main(){
   stdout.write("sub is $sub\n");
   stdout.write("mul is $mul\n");
   stdout.write("div is $div");
-// }
+}
 
 
 // //swapping of two numbers
@@ -63,4 +63,4 @@ void main(){
 //   int ? cel=int.parse(input.readLineSync()!);
 //   double fer=(((9/5)*cel)+32);
 //   stdout.write("the temp in fer is $fer");
-}
+// }
