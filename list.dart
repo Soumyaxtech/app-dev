@@ -1,7 +1,8 @@
 void main(){
   List <int>age=[2,6,8,9];//syntax for list
-  List<String>name=['soumya','rohit','ranajit','soumyadeep'];
-  dynamic data =[23,'soumyajit'];//  in dynamic we can store diff datatype together
+  List<String>name=['soumya','rohit','soumyadeep'];
+  dynamic data =[23,'soumyajit',65.90,true];//  in dynamic we can store diff datatype together
+  name.add('piyush');
   print(name.length );
   print(age.length);  //to find length of list
   print(data.length);
