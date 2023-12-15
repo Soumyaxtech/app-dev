@@ -1,8 +1,8 @@
 import "dart:io";
 void main(){
-stdout.write("the max number from the list is ${maxnum()}");
+stdout.write("the max element and min element from the list are respectively ${maxnum()}");
 }
-int maxnum(){
+List<int> maxnum(){
   List<int>x=[];
   stdout.write("enter number of list element ");
   int y = int . parse(stdin.readLineSync()!);
@@ -18,5 +18,12 @@ int maxnum(){
       max=x[i];
     }
   }
-  return max;
+  int min=x[0];
+  for(int i=0;i<x.length;i++){
+    if(min>x[i]){
+      min=x[i];
+    }
+  }
+  List<int>maxmin=[max,min];
+  return (maxmin);
 }
